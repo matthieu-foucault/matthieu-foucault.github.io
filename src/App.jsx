@@ -78,7 +78,7 @@ const App = (props) => {
               Matthieu Foucault
             </Typography>
             <Typography variant="h6" align="center" color="textSecondary" paragraph>
-              I&quot;m a full-stack software engineer and data scientist.
+              I&#39;m a full-stack software engineer and data scientist.
               Based in Victoria, BC, Canada.
               I have a PhD in computer science,
               and I am an expert in front-end development and data visualization.
