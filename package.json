@@ -1,0 +1,46 @@
+{
+  "name": "matthieu-foucault.github.io",
+  "version": "1.0.0",
+  "description": "My personal page, describing my skills and past projects",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthieu-foucault/matthieu-foucault.github.io.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Matthieu Foucault",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthieu-foucault/matthieu-foucault.github.io/issues"
+  },
+  "homepage": "https://github.com/matthieu-foucault/matthieu-foucault.github.io#readme",
+  "dependencies": {
+    "@material-ui/core": "^3.8.3",
+    "avataaars": "^1.2.1",
+    "classnames": "^2.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
+}
