@@ -5,6 +5,8 @@ import Typography from '@material-ui/core/Typography';
 import { withStyles, Grid, Button } from '@material-ui/core';
 import PropTypes from 'prop-types';
 import Avatar from './Avatar';
+import FrontEndSkills from './FullStackSkills';
+import DataScienceSkills from './DataScienceSkills';
 
 const styles = theme => ({
   appBar: {
@@ -94,6 +96,19 @@ const App = (props) => {
             </div>
           </div>
         </div>
+        <Grid container spacing={6} justify="center">
+          <Grid item>
+            <Typography variant="h3" align="center" color="textPrimary" gutterBottom>My skills</Typography>
+          </Grid>
+        </Grid>
+        <Grid container spacing={40} justify="center">
+          <Grid item>
+            <FrontEndSkills />
+          </Grid>
+          <Grid item>
+            <DataScienceSkills />
+          </Grid>
+        </Grid>
       </main>
     </React.Fragment>
   );
