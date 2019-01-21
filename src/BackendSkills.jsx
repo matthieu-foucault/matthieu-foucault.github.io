@@ -26,48 +26,34 @@ function AlignItemsList(props) {
     <Card>
       <CardContent>
         <List
-          subheader={<ListSubheader>Data Science &amp; Visualization</ListSubheader>}
+          subheader={<ListSubheader>Back-End Development</ListSubheader>}
           className={classes.root}
         >
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="D3.JS" src="/static/d3.svg" />
+              <Avatar alt="Java" src="/static/.png" />
             </ListItemAvatar>
             <ListItemText
-              primary="d3.js"
-              secondary="Used the following modules: scale, scale-chromatic, hierarchy, axes, quadtree, axis."
+              primary="Java"
+              secondary=""
             />
           </ListItem>
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="PIXI.JS" src="/static/pixi.png" />
+              <Avatar alt="Ruby" src="/static/.png" />
             </ListItemAvatar>
             <ListItemText
-              primary="Pixi.js"
-              secondary="Used pixi to create fast and interactive 2d visualizations."
+              primary="Ruby"
+              secondary=""
             />
           </ListItem>
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="R" src="/static/R.png" />
+              <Avatar alt="C++" src="/static/.png" />
             </ListItemAvatar>
             <ListItemText
-              primary="R"
-              secondary="Developed R packages using inferential statistics to compute relationships between developer activity metrics,
-              and produce charts using ggplot2"
-            />
-          </ListItem>
-          <ListItem alignItems="flex-start">
-            <ListItemText
-              primary="Data extraction and analysis"
-              secondary="Extracted and analyzed data from various types of sources (e.g. databases, but also code repositories history)
-              and performed statistical analysis to infer relationships between metrics."
-            />
-          </ListItem>
-          <ListItem alignItems="flex-start">
-            <ListItemText
-              primary="Scientific Publications"
-              secondary="Authored 7 scientific publications in software engineering conferences, journals, workshops, and technical reports."
+              primary="C++"
+              secondary=""
             />
           </ListItem>
         </List>
