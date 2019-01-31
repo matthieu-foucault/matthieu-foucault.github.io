@@ -31,10 +31,47 @@ const projects = [
       </Typography>
     ),
   },
-  { name: 'Diggit' },
-  { name: 'Harmony' },
-  { name: 'react-pixi-plot' },
-  { name: 'rest-redux-crud' },
+  {
+    name: 'Diggit',
+    url: 'https://github.com/jrfaller/diggit',
+    description: (
+      <Typography>
+        A tool to analyze Git repositories, written in Ruby.
+      </Typography>
+    ),
+  },
+  {
+    name: 'Harmony',
+    url: 'https://github.com/se-labri/harmony',
+    description: (
+      <Typography>
+        A tool to reverse-engineer the information contained
+        in the software version control systems.
+        It is an extensible framework allowing you to gather the information you need
+        to perform advanced studies against the history of software projects.
+      </Typography>
+    ),
+
+  },
+  {
+    name: 'react-pixi-plot',
+    url: 'https://github.com/thechiselgroup/react-pixi-plot',
+    description: (
+      <Typography>
+        A React component rendering a zoomable and draggable PIXI.js scene.
+        Intended to render 2d plots
+      </Typography>
+    ),
+  },
+  {
+    name: 'rest-redux-crud',
+    url: 'https://github.com/thechiselgroup/rest-redux-crud',
+    description: (
+      <Typography>
+        A set of CRUD actions, reducers and selectors for Redux (with REST requests too!)
+      </Typography>
+    ),
+  },
 ];
 
 export default projects;
