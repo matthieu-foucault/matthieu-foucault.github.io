@@ -59,11 +59,13 @@ class ProjectCard extends React.Component {
         <CardHeader
           title={project.name}
         />
-        <CardMedia
-          className={classes.media}
-          image={project.img}
-          title={project.name}
-        />
+        {project.img && (
+          <CardMedia
+            className={classes.media}
+            image={project.img}
+            title={project.name}
+          />
+        )}
         <CardContent>
           {project.description}
         </CardContent>
